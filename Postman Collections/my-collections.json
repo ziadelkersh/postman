@@ -7,7 +7,7 @@
 	"item": [
 		{
 			"name": "https://postman-echo.com/get?test=123",
-			"_postman_id": "f44c0079-f184-4358-aaa6-ced14fe6cc81",
+			"id": "f44c0079-f184-4358-aaa6-ced14fe6cc81",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -152,6 +152,13 @@
 					"body": "{\n    \"args\": {\n        \"test\": \"124\"\n    },\n    \"headers\": {\n        \"x-forwarded-proto\": \"https\",\n        \"x-forwarded-port\": \"443\",\n        \"host\": \"postman-echo.com\",\n        \"x-amzn-trace-id\": \"Root=1-63525e00-521ef5bf4382edac0326e626\",\n        \"user-agent\": \"PostmanRuntime/7.29.2\",\n        \"accept\": \"*/*\",\n        \"postman-token\": \"f57ea33f-9c7a-4f9b-a73e-dddbbe8a8890\",\n        \"accept-encoding\": \"gzip, deflate, br\",\n        \"cookie\": \"sails.sid=s%3AAso5SbcbNDhczMe9kLEhknuhS5_m5LSX.D2tIdGDfhzfo9Z21wnZnoIS5mcNvOO64wuzU3on%2B8%2Fs\"\n    },\n    \"url\": \"https://postman-echo.com/get?test=124\"\n}"
 				}
 			]
+		}
+	],
+	"variable": [
+		{
+			"id": "7fc90d26-1f45-4c6e-aa98-d8f3d7d5a16e",
+			"key": "URL",
+			"value": "https://postman-echo.com"
 		}
 	]
 }
