@@ -156,9 +156,14 @@
 	],
 	"variable": [
 		{
-			"id": "7fc90d26-1f45-4c6e-aa98-d8f3d7d5a16e",
+			"id": "32d48657-170a-4c81-8e69-0848185adb5f",
 			"key": "URL",
 			"value": "https://postman-echo.com"
+		},
+		{
+			"id": "11fd6605-c8f7-493d-9e98-0b909c01f47f",
+			"key": "parameter",
+			"value": "test"
 		}
 	]
 }
