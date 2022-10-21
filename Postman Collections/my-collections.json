@@ -6,7 +6,7 @@
 	},
 	"item": [
 		{
-			"name": "https://postman-echo.com/get?test=124",
+			"name": "https://postman-echo.com/get?test=123",
 			"id": "f44c0079-f184-4358-aaa6-ced14fe6cc81",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
@@ -93,12 +93,12 @@
 	],
 	"variable": [
 		{
-			"id": "f891d9bf-bcb9-454f-91e2-9d3dcabf4403",
+			"id": "f4b050d6-e49e-4039-8296-f033dd9577dd",
 			"key": "URL",
 			"value": "https://postman-echo.com"
 		},
 		{
-			"id": "0fdfb319-4397-4118-9d6c-039c4d3de331",
+			"id": "3b8f1a85-6fbd-446a-b79d-fafdec610d9f",
 			"key": "parameter",
 			"value": "test"
 		}
