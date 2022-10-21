@@ -87,77 +87,18 @@
 					"cookie": [],
 					"responseTime": null,
 					"body": "{\n    \"args\": {\n        \"test\": \"123\"\n    },\n    \"headers\": {\n        \"x-forwarded-proto\": \"https\",\n        \"x-forwarded-port\": \"443\",\n        \"host\": \"postman-echo.com\",\n        \"x-amzn-trace-id\": \"Root=1-635259a1-7f81402f3c88e1830385c10f\",\n        \"user-agent\": \"PostmanRuntime/7.29.2\",\n        \"accept\": \"*/*\",\n        \"postman-token\": \"ec6ade96-851f-4b91-93f8-c5cdec4dcb16\",\n        \"accept-encoding\": \"gzip, deflate, br\",\n        \"cookie\": \"sails.sid=s%3AAso5SbcbNDhczMe9kLEhknuhS5_m5LSX.D2tIdGDfhzfo9Z21wnZnoIS5mcNvOO64wuzU3on%2B8%2Fs\"\n    },\n    \"url\": \"https://postman-echo.com/get?test=123\"\n}"
-				},
-				{
-					"id": "550ef051-dd00-4660-a476-22e4d3cf44f2",
-					"name": "https://postman-echo.com/get?test=123",
-					"originalRequest": {
-						"method": "GET",
-						"header": [],
-						"url": {
-							"raw": "{{URL}}/get?{{parameter}}=124",
-							"host": [
-								"{{URL}}"
-							],
-							"path": [
-								"get"
-							],
-							"query": [
-								{
-									"key": "{{parameter}}",
-									"value": "124"
-								}
-							]
-						}
-					},
-					"status": "OK",
-					"code": 200,
-					"_postman_previewlanguage": "json",
-					"header": [
-						{
-							"key": "Date",
-							"value": "Fri, 21 Oct 2022 20:10:27 GMT"
-						},
-						{
-							"key": "Content-Type",
-							"value": "application/json; charset=utf-8"
-						},
-						{
-							"key": "Content-Length",
-							"value": "472"
-						},
-						{
-							"key": "Connection",
-							"value": "keep-alive"
-						},
-						{
-							"key": "ETag",
-							"value": "W/\"1d8-XO5TVkc++hKJCjkbQhPvxtezj7M\""
-						},
-						{
-							"key": "Vary",
-							"value": "Accept-Encoding"
-						},
-						{
-							"key": "set-cookie",
-							"value": "sails.sid=s%3AQNpYS05TaqqDbjkH9EuBuPNJ-Gf6Sion.ipIhJWTxTZ6mpKinDxAk43oySGWmv7lSY%2FECJbp5aKo; Path=/; HttpOnly"
-						}
-					],
-					"cookie": [],
-					"responseTime": null,
-					"body": "{\n    \"args\": {\n        \"test\": \"124\"\n    },\n    \"headers\": {\n        \"x-forwarded-proto\": \"https\",\n        \"x-forwarded-port\": \"443\",\n        \"host\": \"postman-echo.com\",\n        \"x-amzn-trace-id\": \"Root=1-6352fcb3-1cd772d702179e673b419583\",\n        \"user-agent\": \"PostmanRuntime/7.29.2\",\n        \"accept\": \"*/*\",\n        \"postman-token\": \"fe4b8c59-7af0-4e1e-85e0-0acefead3718\",\n        \"accept-encoding\": \"gzip, deflate, br\",\n        \"cookie\": \"sails.sid=s%3AfWm5G-EOerPWA_h4QzonJ9uzsHPafn1O.awJh9MuvXKh1gBxuKNfDw8oXb%2BWm7p%2BEo4Jig3As6Ik\"\n    },\n    \"url\": \"https://postman-echo.com/get?test=124\"\n}"
 				}
 			]
 		}
 	],
 	"variable": [
 		{
-			"id": "beaca9a4-0a81-4673-ba4c-504ece92ee86",
+			"id": "27792047-fd4e-461a-b8d6-69a977934060",
 			"key": "URL",
 			"value": "https://postman-echo.com"
 		},
 		{
-			"id": "6b5aed89-3856-4a4b-932b-860fdde98886",
+			"id": "0ba4311d-d13d-4519-97c6-2b7bceb40b9f",
 			"key": "parameter",
 			"value": "test"
 		}
