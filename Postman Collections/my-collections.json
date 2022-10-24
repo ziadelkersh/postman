@@ -15,7 +15,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{URL}}/get?{{parameter}}=125",
+					"raw": "{{URL}}/get?{{parameter}}=123",
 					"host": [
 						"{{URL}}"
 					],
@@ -25,7 +25,7 @@
 					"query": [
 						{
 							"key": "{{parameter}}",
-							"value": "125"
+							"value": "123"
 						}
 					]
 				}
@@ -93,12 +93,12 @@
 	],
 	"variable": [
 		{
-			"id": "f4b050d6-e49e-4039-8296-f033dd9577dd",
+			"id": "64c73a87-adf5-4d5b-a3a2-d63f8b35c697",
 			"key": "URL",
 			"value": "https://postman-echo.com"
 		},
 		{
-			"id": "3b8f1a85-6fbd-446a-b79d-fafdec610d9f",
+			"id": "1cca53b2-c142-4afe-a440-7ef98f33a769",
 			"key": "parameter",
 			"value": "test"
 		}
